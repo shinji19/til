@@ -10,3 +10,7 @@
     export PERL_AUTOINSTALL='--defaultdeps'
     cpan
     cpan -i Log::Log4perl Class::Load YAML
+
+#### DBD::Pg DBD::mysqlの導入(centos)
+    yum install -y mysql-devel postgresql-devel
+    cpan -i DBD::mysql DBD::Pg
