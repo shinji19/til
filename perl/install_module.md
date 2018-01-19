@@ -12,6 +12,8 @@
     cpan -i Log::Log4perl Class::Load YAML
 
 #### DBD::Pg DBD::mysqlの導入
-    # mysql-devel,postgresql-develがないとインストールできない
-    yum install -y mysql-devel postgresql-devel
+
+    # mysql-devel,postgresql-develがないとインストールできない
+    yum install -y mysql-devel postgresql-devel
     cpan -i DBD::mysql DBD::Pg
+
