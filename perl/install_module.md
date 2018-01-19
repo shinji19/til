@@ -11,6 +11,6 @@
     cpan
     cpan -i Log::Log4perl Class::Load YAML
 
-#### DBD::Pg DBD::mysqlの導入(centos)
+#### DBD::Pg DBD::mysqlの導入
     yum install -y mysql-devel postgresql-devel
     cpan -i DBD::mysql DBD::Pg
