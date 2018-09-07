@@ -1,0 +1,6 @@
+# custom ui (for mac)
+
+```
+~/Library/Application Support/Firefox/Profiles/????.default-??????????/chrome/userChrome.css
+```
+
